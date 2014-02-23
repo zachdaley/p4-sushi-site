@@ -4,6 +4,8 @@ $(document).foundation();
 // Your Awesome Scripts!
 $(document).ready(function(){
 
-	console.log('Page Loaded. Lets Do this!');
+	$(document).ready( function() {
+$('div.sticky').smint();
+});
 
 }); 
