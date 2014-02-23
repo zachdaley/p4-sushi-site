@@ -3,7 +3,7 @@
 div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
 font-family: 'Permanent Marker', cursive;
 text-align: center;
-height: 85px;
+height: 45px;
 background: black;
 }
 
@@ -13,8 +13,8 @@ div.menu {
 	margin-top: 20px;
 }
 
-div.aboutus, div.orbit-container {
-
+div.aboutus, div.orbit-container, div.row {
+	background: none;
 	margin-top:20px;
 }
 div.contact {
@@ -24,7 +24,7 @@ div.contact {
 }
 
 div.content {
-	background: black;
+	background: none;
 padding-top: 20px;
 color: white;
 }
@@ -34,10 +34,68 @@ section.top-bar-section.right {
 	text-align: center;
 }
 
+nav.top-bar {
+	height: 45px;
+
+	z-index: 3;
+	background: black;
+}
+
+
 div.heading, div.heading h2 {
 	text-align: center;
 	color: white;
 	background: black;
+}
+
+/* Menu */
+
+table {
+	background: none;
+	width: 100%;
+	border:none;
+}
+
+tr {
+	margin-bottom: 10px;
+
+}
+
+td, table tbody tr td, table tr td{
+	font-size: 1em;
+	font-weight: inherit;
+	color: white;
+}
+
+td.item {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+	color: white;
+}
+
+td.item.raw {
+
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+	color: orange;
+}
+
+td.item.spicy {
+
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+	color: red;
+}
+
+td.price {
+
+	text-align: right;
+	font-weight: bold;
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(even){
+
+background: none;
 }
 
 /* IMG*/
@@ -65,15 +123,6 @@ img.logo {
 p {
 	color: white;
 }
-
-
-nav.top-bar {
-	height: 85px;
-
-	z-index: 3;
-	background: black;
-}
-
 
 h4 {
 	font-family: 'Permanent Marker', cursive;
