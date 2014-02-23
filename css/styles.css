@@ -13,13 +13,16 @@ div.menu {
 }
 
 h4 {
+	color:white;
 	text-align: center;
 }
 div.contact {
 	color: white;
 	background: black;
 }
-
+p {
+	color: white;
+}
 section.top-bar-section.right {
 
 	text-align: center;
