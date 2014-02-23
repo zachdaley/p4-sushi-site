@@ -6,21 +6,40 @@ body {
 }
 div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
 
+text-align: center;
+height: 85px;
 background: black;
 }
 
-div {
+section.top-bar-section.right {
+
+	text-align: center;
+}
+div.heading, div.heading h2 {
+
+	color: white;
+	background: black;
+}
+
+img.about {
+
+	width:333px;
+	height: 245px;
+}
+
+div.content {
 	background: white;
 }
 
 nav.top-bar {
+	height: 85px;
 
 	z-index: 3;
 	background: black;
 }
 
 img.logo {
-
+	margin-top: 5px;
 	width: 100px;
 	height: 75px;  
 }
