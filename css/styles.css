@@ -4,7 +4,7 @@ body {
 	background-image: url('../img/bg.png');
 	background-repeat: repeat;
 }
-div.contain-to-grid.fixed, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
+div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
 
 background: black;
 }
