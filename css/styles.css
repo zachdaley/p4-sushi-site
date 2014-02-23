@@ -1,9 +1,5 @@
 /* Your Awesome Website */
 
-body {
-	background-image: url('../img/bg.png');
-	background-repeat: repeat;
-}
 div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
 
 text-align: center;
@@ -16,12 +12,20 @@ div.menu {
 	width: 100%;
 }
 
+h4 {
+	text-align: center;
+}
+div.contact {
+	color: white;
+	background: black;
+}
+
 section.top-bar-section.right {
 
 	text-align: center;
 }
 div.heading, div.heading h2 {
-
+	text-align: center;
 	color: white;
 	background: black;
 }
@@ -33,7 +37,9 @@ img.about {
 }
 
 div.content {
-	background: white;
+	background: black;
+
+color: white;
 }
 
 nav.top-bar {
