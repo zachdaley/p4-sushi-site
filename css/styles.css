@@ -1,4 +1,4 @@
-/* Your Awesome Website */
+/* DIVS */
 
 div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
 font-family: 'Permanent Marker', cursive;
@@ -13,12 +13,7 @@ div.menu {
 	margin-top: 20px;
 }
 
-h4 {
-	font-family: 'Permanent Marker', cursive;
-	color:white;
-	text-align: center;
-}
-div.aboutus {
+div.aboutus, div.orbit-container {
 
 	margin-top:20px;
 }
@@ -28,18 +23,24 @@ div.contact {
 	background: black;
 }
 
-p {
-	color: white;
+div.content {
+	background: black;
+padding-top: 20px;
+color: white;
 }
+
 section.top-bar-section.right {
 
 	text-align: center;
 }
+
 div.heading, div.heading h2 {
 	text-align: center;
 	color: white;
 	background: black;
 }
+
+/* IMG*/
 
 img.about {
 
@@ -48,11 +49,23 @@ img.about {
 	padding-bottom: 20px;
 }
 
-div.content {
-	background: black;
-padding-top: 20px;
-color: white;
+img.orbitpic {
+
+	width: 100%;
 }
+
+img.logo {
+	margin-top: 5px;
+	width: 100px;
+	height: 75px;  
+}
+
+/* Typography*/
+
+p {
+	color: white;
+}
+
 
 nav.top-bar {
 	height: 85px;
@@ -61,8 +74,10 @@ nav.top-bar {
 	background: black;
 }
 
-img.logo {
-	margin-top: 5px;
-	width: 100px;
-	height: 75px;  
+
+h4 {
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	text-align: center;
+	border: solid 2px;
 }
