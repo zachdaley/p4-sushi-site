@@ -10,16 +10,22 @@ background: black;
 div.menu {
 	background: none;
 	width: 100%;
+	margin-top: 20px;
 }
 
 h4 {
 	color:white;
 	text-align: center;
 }
+div.aboutus {
+
+	margin-top:20px;
+}
 div.contact {
 	color: white;
 	background: black;
 }
+
 p {
 	color: white;
 }
@@ -37,6 +43,7 @@ img.about {
 
 	width:333px;
 	height: 245px;
+	padding-bottom: 20px;
 }
 
 div.content {
@@ -56,12 +63,4 @@ img.logo {
 	margin-top: 5px;
 	width: 100px;
 	height: 75px;  
-}
-
-img.mainimage {
-
-	display: block;
-	margin: auto;
-	width: 1000px;
-	height: 550px;
 }
