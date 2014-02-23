@@ -1,7 +1,7 @@
 /* Your Awesome Website */
 
 div.contain-to-grid, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
-
+font-family: 'Permanent Marker', cursive;
 text-align: center;
 height: 85px;
 background: black;
@@ -14,6 +14,7 @@ div.menu {
 }
 
 h4 {
+	font-family: 'Permanent Marker', cursive;
 	color:white;
 	text-align: center;
 }
@@ -22,6 +23,7 @@ div.aboutus {
 	margin-top:20px;
 }
 div.contact {
+	margin-top: 20px;
 	color: white;
 	background: black;
 }
@@ -48,7 +50,7 @@ img.about {
 
 div.content {
 	background: black;
-
+padding-top: 20px;
 color: white;
 }
 

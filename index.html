@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zach Daley - P4 - Sushi Site</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -19,13 +20,14 @@
           <li class="name">
             <a href="#"><img src="img/sushi_logo.png" class="logo"></a>
           </li>
+          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
         </ul>
 
-        <section class="top-bar-section right">
-          <ul>
+        <section class="top-bar-section">
+          <ul class="right">
             <li><a id="aboutBtn">About</a></li>
             <li><a id="menuBtn">Menu</a></li>
-            <li data-magellan-arrival='contact'><a href="#contact">Contact</a></li>
+            <li><a id="contactBtn">Contact</a></li>
           </ul>
         </section>
       </nav>
@@ -61,7 +63,7 @@
   <!-- Menu -->
 
   <div class="row" id="menu">
-    <div class="large-12 columns menu" data-magellan-destination='menu'>
+    <div class="large-12 columns menu">
       <h4>Menu</h4>
  
       <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
@@ -73,8 +75,8 @@
 
   <!-- Contact -->
 
- <div class="row">
-  <div class="large-12 columns contact" data-magellan-destination='contact'>
+ <div class="row" id="contact">
+  <div class="large-12 columns contact">
 
     <h4>Contact</h4>
  
@@ -88,7 +90,7 @@
   <!-- Footer -->
  
  <div class="row">
-  <div class="large-12 columns contact" data-magellan-destination='contact'>
+  <div class="large-12 columns contact">
 
     <h4>Footer</h4>
  
