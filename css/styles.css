@@ -11,6 +11,11 @@ height: 85px;
 background: black;
 }
 
+div.menu {
+	background: none;
+	width: 100%;
+}
+
 section.top-bar-section.right {
 
 	text-align: center;
