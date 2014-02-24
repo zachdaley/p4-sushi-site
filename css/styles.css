@@ -12,7 +12,10 @@ div.menu {
 	width: 100%;
 	margin-top: 20px;
 }
+div.aboutus {
 
+	margin-top: 20px;
+}
 div.aboutus, div.orbit-container, div.row {
 	background: none;
 	
@@ -21,13 +24,14 @@ div.contact {
 	margin-top: 20px;
 	color: white;
 	background: black;
+	height: 325px;
 		
 }
 
 div#gmap {
 	margin-top: 20px;
 background: black;
-	height: 270px;
+	height: 325px;
 	padding: 10px;
 }
 div.content {
@@ -130,6 +134,7 @@ img.logo {
 p {
 	color: white;
 	background: none;
+	margin-bottom: 0em;
 }
 
 h4 {
@@ -138,13 +143,15 @@ h4 {
 	font-size: 2em;
 	text-align: center;
 	background: black;
-	border: solid 2px;
+	
 }
 
 /* Footer */
 
 p.footer {
 	text-align: center;
+	background: black;
+	margin-top: 20px;
 }
 
 p.footer i{
