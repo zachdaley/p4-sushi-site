@@ -15,7 +15,7 @@ div.menu {
 
 div.aboutus, div.orbit-container, div.row {
 	background: none;
-	margin-top:20px;
+	
 }
 div.contact {
 	margin-top: 20px;
@@ -135,6 +135,7 @@ p {
 h4 {
 	font-family: 'Permanent Marker', cursive;
 	color:white;
+	font-size: 2em;
 	text-align: center;
 	border: solid 2px;
 }
