@@ -21,8 +21,15 @@ div.contact {
 	margin-top: 20px;
 	color: white;
 	background: black;
+		
 }
 
+div#gmap {
+	margin-top: 20px;
+background: black;
+	height: 270px;
+	padding: 10px;
+}
 div.content {
 	background: none;
 padding-top: 20px;
@@ -122,6 +129,7 @@ img.logo {
 
 p {
 	color: white;
+	background: none;
 }
 
 h4 {
@@ -129,4 +137,15 @@ h4 {
 	color:white;
 	text-align: center;
 	border: solid 2px;
+}
+
+/* Footer */
+
+p.footer {
+	text-align: center;
+}
+
+p.footer i{
+	color: #333333;
+	font-size: 2em;
 }
